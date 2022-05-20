@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "Roboto Flex",sans-serif;
+}
+
+h1 {
+    padding-top:10px;
+    color: white;
+    font-family: 'Koulen', cursive;
+    margin:0;
+}
+
+h2 {
+    font-family: 'Koulen', cursive;
+}
+
+h3 {
+    font-family: 'Koulen', cursive;
+}
+
+p {
+    margin: 0;
+}
+
+/** Class Selectors**/
+
+.secondcloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.firstcloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+
+}
+
+.top-container {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    position: relative;
+    background-color: #8CC0DE;
+    margin: 0;
+}
+
+.role {
+    font-size: 100px;
+    padding: 0;
+    padding-top: 0;
+    margin: 0;
+    color: #F4BFBF;
+    font-weight: bold;
+}
+
+.skillimage {
+    width: 250px;
+
+}
+
+.footer-link {
+    color: white;
+    width: 50px;
+    padding: 25px;
+}
+
+.logo {
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 5px;
+}
+
+
+/** ID Selectors**/
+#pro {
+    text-decoration: underline;
+}
+
+#profilepic {
+    width: 250px;
+    border-radius: 100%;
+    visibility: hidden;
+}
