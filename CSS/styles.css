@@ -1,26 +1,53 @@
+/**https://colorhunt.co/palette/f4bfbfffd9c0faf0d78cc0de link to palette**/
+
 body {
     margin: 0px;
     text-align: center;
-    font-family: "Roboto Flex",sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(254, 253, 250)
+}
+
+hr {
+    border-style: dotted;
+    border-width: 5px;
+    border-top: 10px;
+    width: 2%;
+    color: #EAF6F6;
+
 }
 
 h1 {
     padding-top:10px;
-    color: white;
-    font-family: 'Koulen', cursive;
+    color: #66BFBF;
+    font-family: 'Poppins', sans-serif;
     margin:0;
+    font-size: 3.5rem;
 }
 
 h2 {
-    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 2.5rem 0 2.5rem 0;
+    letter-spacing: 2px;
+    color: #66BFBF;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 h3 {
-    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: 200;
+    color: #11999E;
+
+}
+
+a {
+    color: white;
 }
 
 p {
-    margin: 0;
+    color: #40514e;
+    margin: 10px 0 3rem 0;
 }
 
 /** Class Selectors**/
@@ -43,22 +70,20 @@ p {
     padding-top: 100px;
     padding-bottom: 0px;
     position: relative;
-    background-color: #8CC0DE;
+    background-color: #66BFBF;
     margin: 0;
 }
 
-.role {
-    font-size: 100px;
-    padding: 0;
-    padding-top: 0;
-    margin: 0;
-    color: #F4BFBF;
-    font-weight: bold;
+.skillimage-design {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
 }
 
-.skillimage {
-    width: 250px;
-
+.skillimage-code {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
 }
 
 .footer-link {
@@ -71,10 +96,51 @@ p {
     width: 500px;
     padding: 0;
     margin: 0;
+    margin-top: 50px;
     position: relative;
     left: 5px;
 }
 
+.splashtext {
+    color: #FAF0D7;
+    margin:0;
+}
+
+.skills {
+    padding: 20px
+}
+
+.skill-row {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile {
+    width: 25%;
+    margin: auto;
+}
+
+.contact-me {
+    width: 25%;
+    margin:0 auto 0 auto
+}
+
+.btn {
+    background-color: #66BFBF;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
 
 /** ID Selectors**/
 #pro {
@@ -82,7 +148,18 @@ p {
 }
 
 #profilepic {
-    width: 250px;
+    width: 150px;
     border-radius: 100%;
-    visibility: hidden;
+    margin: 5rem auto 0 auto;
+}
+
+#skillstitle {
+    margin-bottom: 70px;
+}
+
+#footertext {
+    margin: 0;
+    color: white;
+    font-size:small;
+
 }
